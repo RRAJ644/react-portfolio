@@ -5,6 +5,10 @@
     gap: 3rem;
 }
 
+.contact-desc {
+  font-size: 1.5rem;
+}
+
 .contact__container a {
     width: 5rem;
     aspect-ratio: 1/1;

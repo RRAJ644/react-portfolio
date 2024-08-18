@@ -12,6 +12,9 @@ import Image1 from '../../assets/bsg.png'
 import Image2 from '../../assets/wiseadvice.png'
 import Image3 from '../../assets/blog-portal.png'
 import Image4 from '../../assets/unchained.png'
+import Image5 from '../../assets/odinn.png'
+import Image6 from '../../assets/gff.png'
+
 
 const data = [
   {
@@ -33,7 +36,7 @@ const data = [
   },
 
   {
-    id: 6,
+    id: 3,
     category: 'frontend',
     image: Image3,
     title: 'Blog portal - WiseAdvice Blogs',
@@ -42,12 +45,30 @@ const data = [
   },
 
   {
-    id: 7,
+    id: 4,
     category: 'frontend',
     image: Image4,
     title: 'Unchained - News And Media Agency',
     desc: 'Developed the Unchained digital presence which got the 200% increase the business and cool collaborations.',
-    visit: '',
+    visit: 'https://unchained-theta.vercel.app/',
+  },
+
+  {
+    id: 5,
+    category: 'frontend',
+    image: Image5,
+    title: 'Odinn - CRM',
+    desc: 'Project associated with SecretMindtech. Worked on Frontend and Backend of the CRM system developed the APIs of the system and frontend.',
+    visit: 'https://dev.odinn.io/en/login',
+  },
+
+  {
+    id: 6,
+    category: 'frontend',
+    image: Image6,
+    title: 'Girls First Finance - GFF',
+    desc: "Project associated with SecretMindtech. Worked on the Admin panel's of the App. I developed the APIs and improved performances of modules.",
+    visit: 'https://dev.admin.girlsfirstfinance.com/auth/login',
   },
 ]
 

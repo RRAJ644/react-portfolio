@@ -5,7 +5,7 @@ const Contact = () => {
   return (
     <section id="contact">
       <h2>Get In Touch</h2>
-      <p>
+      <p className='contact-desc'>
         Shoot me a message via any of the links below!
       </p>
       <div className="container contact__container" data-aos="fade-up">

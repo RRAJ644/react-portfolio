@@ -5,6 +5,10 @@
     align-items: start;
 }
 
+.faqs-desc{
+  font-size: 1.4rem;
+}
+
 .card.faq:hover {
     cursor: pointer;
     background: var(--color-white);
