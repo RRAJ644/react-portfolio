@@ -16,11 +16,10 @@ const Header = () => {
         {/* <div className="header__profile" data-aos="fade-in">
           <img src={HeaderImage} alt="Header Portait" />
         </div> */}
-        <h3 data-aos='fade-up'>RITU RAJ SINGH</h3>
+        <h1 data-aos='fade-up'>RITU RAJ SINGH</h1>
         <p data-aos='fade-up'>
-          You are a click away from building your dream website or web app. Send
-          me the details of your project for a modern, mobile responsive, highly
-          performant website today!
+          Bringing Your Ideas to Life, Inside and Out. Complete Web Development,
+          Tailored to Your Needs. Ready to Launch Your Success?
         </p>
         <div className='header__cta' data-aos='fade-up'>
           <a href='#contact' className='btn primary'>

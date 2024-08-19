@@ -7,7 +7,8 @@ const Services = () => {
     <section id='services'>
       <h2>My Services</h2>
       <p className='services-desc'>
-        I give you the best in all the services below
+        Providing bespoke solutions that perfectly align with your business
+        goals.
       </p>
       <div className='container services__container' data-aos='fade-up'>
         {data?.map((item) => (
