@@ -6,7 +6,7 @@
 }
 
 .faqs-desc{
-  font-size: 1.4rem;
+  font-size: 1.3rem;
 }
 
 .card.faq:hover {
@@ -31,10 +31,15 @@
     background: transparent;
 }
 
+.faq__question{
+  font-size: 1.1rem;
+}
+
 .faq__answer {
     margin-top: 1rem;
     opacity: 0;
     animation: animateAnswer 500ms ease-in forwards;
+    font-size: 1.1rem;
 }
 
 @keyframes animateAnswer {

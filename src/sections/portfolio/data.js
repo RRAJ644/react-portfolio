@@ -15,14 +15,13 @@ import Image4 from '../../assets/unchained.png'
 import Image5 from '../../assets/odinn.png'
 import Image6 from '../../assets/gff.png'
 
-
 const data = [
   {
     id: 1,
     category: 'frontend',
     image: Image1,
-    title: 'BullStreet Group - Crypto Marketing KOL Management',
-    desc: 'Developed the website for the BullStreet Group to elevate the digital presence with cool portfolio and amazing work they are doing with their services.',
+    title: 'BullStreet Group - Crypto Marketing',
+    desc: 'Developed the website for the BullStreet Group to elevate the digital presence with cool portfolio and amazing services they are providing.',
     visit: 'https://bullstreetgroup.com/',
   },
 
@@ -31,7 +30,7 @@ const data = [
     category: 'frontend',
     image: Image2,
     title: 'WiseAdvice - Top Asian Crypto KOL',
-    desc: 'Developed the website of WiseAdvice, brand of Sumit Kapoor-the top crypto KOL, and which showcases the cool portfolio of Sumit Kapoor and Blogs with respect to trends web3 trends.',
+    desc: 'Developed the WiseAdvice website for Sumit Kapoor, a leading crypto KOL. The site features his portfolio and blogs on the latest Web3 trends.',
     visit: 'https://wiseadvice.in/',
   },
 
@@ -40,7 +39,8 @@ const data = [
     category: 'frontend',
     image: Image3,
     title: 'Blog portal - WiseAdvice Blogs',
-    desc: 'Developed the in house portal for WiseAdvice which is a brand of Sumit Kapoor-the top crypto KOL to facilitate the operation of blogging effectively and efficiently.',
+    // desc: 'Developed the in house portal for WiseAdvice which is a brand of Sumit Kapoor-the top crypto KOL to facilitate the operation of blogging effectively and efficiently.',
+    desc: 'Developed the WiseAdvice portal for Sumit Kapoor, a leading crypto KOL. The portal streamlines blogging operations for efficiency.',
     visit: 'https://clever-bublanina-62161e.netlify.app/login',
   },
 
