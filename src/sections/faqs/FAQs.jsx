@@ -12,7 +12,7 @@ const FAQs = () => {
 
   return (
     <section id="faqs">
-      <h2>Frequently Asked Questions</h2>
+      <h2 className='faq-heading'>Frequently Asked Questions</h2>
       <p className='faqs-desc'>
       Here are some questions I usually get. Click to toggle the answer, and if you still have some more questions, shoot me a message from the contact section!
       </p>

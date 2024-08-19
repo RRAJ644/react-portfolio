@@ -5,6 +5,7 @@
     align-items: start;
 }
 
+
 .faqs-desc{
   font-size: 1.3rem;
 }
@@ -54,6 +55,9 @@
     .faqs__container {
         grid-template-columns: 1fr;
     }
+    .faqs-desc{
+      font-size: 1.2rem;
+    }
 }
 
 
@@ -61,6 +65,9 @@
 @media screen and (max-width: 600px) {
 .faqs__container {
     gap: 1rem;
+}
+.faqs-desc{
+  font-size: 1rem;
 }
 
 }
