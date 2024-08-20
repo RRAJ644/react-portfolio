@@ -91,6 +91,8 @@ header {
 
     .header__container p {
         width: 100%;
+        font-weight: 500;
+
     }
 
     .header__cta {

@@ -119,6 +119,7 @@
   text-align: center;
 }
 .about-bio {
-  font-size: 1rem;
+  font-size: 1.1em;
+  font-weight: 500;
 }
 }

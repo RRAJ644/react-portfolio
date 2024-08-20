@@ -78,6 +78,7 @@ nav {
 .menu-icon {
   display: none;
 }
+
 }
 
 /* Center on medium screens (640px - 1024px) */
@@ -86,3 +87,10 @@ nav {
   justify-content: center;
 }
 }
+
+/* Center on small screens (640px - 1024px) */
+@media screen and (max-width: 600px) {
+  .nav__container {
+    justify-content: end;
+  }
+  }
