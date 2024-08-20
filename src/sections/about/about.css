@@ -70,6 +70,11 @@
   font-size: 1.3rem;
 }
 
+.about__right h3{
+  font-size: 1.5rem;
+}
+
+
 
 /* MEDIA QUERIES (tablets) */
 @media screen and (max-width: 1024px) {
@@ -81,7 +86,7 @@
         grid-template-columns: 1fr;
     }
 
-    .about__right h2 {
+    .about__right h3 {
         text-align: center;
     }
 }
@@ -98,4 +103,22 @@
     margin-top: 2rem;
 }
 
+.about__right h3 {
+  text-align: center;
+}
+
+.about__right a{
+  /* display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column; */
+  margin-inline: auto;
+
+}
+.about__right h2{
+  text-align: center;
+}
+.about-bio {
+  font-size: 1rem;
+}
 }

@@ -14,6 +14,7 @@ const About = () => {
             <img src={AboutImage} alt='About Image' />
           </div>
         </div>
+
         <div className='about__right'>
           <h2>About Me</h2>
           <div className='about__cards'>
@@ -25,35 +26,26 @@ const About = () => {
               </Card>
             ))}
           </div>
-          {/* <p className='about-bio'>
-            Building projects my clients love have always been my passion. Being
-            in the web development industry for over 1.5 years and serving more
-            than 70 happy clients worldwide, I'm always motivated to do more!
-          </p>
-          <p className='about-bio'>
-            Hi, my name is Ritu Raj Singh from India. I'm a
-            full-stack web developer with a Bachelors degree in Computer
-            Applications. My top priority is to get your business online the
-            right way, giving you industry-standard design and all the
-            functionality you need to operate smoothly online. Get in touch
-            today with the details of your project let's get started! Check out
-            my resume below!
-          </p> */}
 
-          <h4>
-            Crafting Websites That Drive Success for Over 10+ Clients Worldwide
-          </h4>
           <br />
+          
+          <h3>
+            Crafting Websites That Drive Success for Over 10+ Clients Worldwide
+          </h3>
+
+          <br />
+
           <p className='about-bio'>
             Hello! I’m Ritu Raj Singh, a full-stack web developer from India
             with a Bachelor's degree in Computer Applications. With over 1.5
             years of experience in the web development industry, I’ve had the
-            privilege of helping more than 70 clients globally achieve their
+            privilege of helping more than 10+ clients globally achieve their
             online goals.
           </p>
+          <br />
           <ul>
             {about_data?.map((data) => (
-              <li className='about-bio'>
+              <li key={data.title} className='about-bio'>
                 <strong>{data.title}</strong> : <span>{data.description}</span>
               </li>
             ))}

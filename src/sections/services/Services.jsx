@@ -6,7 +6,7 @@ const Services = () => {
   return (
     <section id='services'>
       <h2>My Services</h2>
-      <p className='services-desc'>
+      <p>
         Providing bespoke solutions that perfectly align with your business
         goals.
       </p>

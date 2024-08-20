@@ -16,7 +16,7 @@ const Header = () => {
         {/* <div className="header__profile" data-aos="fade-in">
           <img src={HeaderImage} alt="Header Portait" />
         </div> */}
-        <h1 data-aos='fade-up'>RITU RAJ SINGH</h1>
+        <h1 className='head-name' data-aos='fade-up'>RITU RAJ SINGH</h1>
         <p data-aos='fade-up'>
           Bringing Your Ideas to Life, Inside and Out. Complete Web Development,
           Tailored to Your Needs. Ready to Launch Your Success?

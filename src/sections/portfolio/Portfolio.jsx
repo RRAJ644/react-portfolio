@@ -24,7 +24,7 @@ const Portfolio = () => {
 
   return (
     <section id='portfolio'>
-      <h2 className='portfolio-head'>Recent Projects</h2>
+      <h2>Recent Projects</h2>
       <p className='portfolio-desc'>
         Check out some of the projects I recently worked on for my clients.
       </p>

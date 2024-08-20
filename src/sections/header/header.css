@@ -71,6 +71,12 @@ header {
         margin-top: 0;
         height: 100vh;
     }
+    .header__container h1{
+      font-size: 2rem;
+    }
+    .header__container p{
+      font-size: 1rem;
+    }
 }
 
 

@@ -59,4 +59,12 @@
     .card.service {
         gap: 1.2rem;
     }
+
+    .service-desc{
+      font-size: 1rem;
+      padding-top: 0.5rem;
+    }
+    .service__details h2{
+      font-size: 1.2rem;
+    }
 }
