@@ -16,10 +16,14 @@ const Header = () => {
         {/* <div className="header__profile" data-aos="fade-in">
           <img src={HeaderImage} alt="Header Portait" />
         </div> */}
-        <h1 className='head-name' data-aos='fade-up'>RITU RAJ SINGH</h1>
+        <h1 className='head-name' data-aos='fade-up'>
+          RITU RAJ SINGH
+        </h1>
         <p data-aos='fade-up'>
-          Bringing Your Ideas to Life, Inside and Out. Complete Web Development,
-          Tailored to Your Needs. Ready to Launch Your Success?
+          A full-stack web developer from India with
+          a Bachelor's degree in Computer Applications. With over 1.5 years of
+          experience in the web development industry, I’ve had the privilege of
+          helping more than 10+ clients globally achieve their online goals.
         </p>
         <div className='header__cta' data-aos='fade-up'>
           <a href='#contact' className='btn primary'>
