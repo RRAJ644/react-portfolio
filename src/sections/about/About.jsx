@@ -28,20 +28,20 @@ const About = () => {
           </div>
 
           <br />
-          
+
           <h3>
             Crafting Websites That Drive Success for Over 10+ Clients Worldwide
           </h3>
 
           <br />
 
-          <p className='about-bio'>
+          {/* <p className='about-bio'>
             Hello! I’m Ritu Raj Singh, a full-stack web developer from India
             with a Bachelor's degree in Computer Applications. With over 1.5
             years of experience in the web development industry, I’ve had the
             privilege of helping more than 10+ clients globally achieve their
             online goals.
-          </p>
+          </p> */}
           <br />
           <ul>
             {about_data?.map((data) => (
