@@ -9,6 +9,7 @@ import FAQs from './sections/faqs/FAQs'
 import Contact from './sections/contact/Contact'
 import Footer from './sections/footer/Footer'
 import Blog from './pages/Blog'
+import Skills from './sections/skills/Skills'
 
 const MainLayout = () => {
   return (
@@ -17,6 +18,7 @@ const MainLayout = () => {
       <Header />
       <About />
       <Services />
+      <Skills/>
       <Portfolio />
       <FAQs />
       <Contact />

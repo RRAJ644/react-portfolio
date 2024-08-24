@@ -89,6 +89,12 @@
     .about__right h3 {
         text-align: center;
     }
+    /* .about__right{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+    } */
 }
 
 
