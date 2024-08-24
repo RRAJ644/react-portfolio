@@ -115,6 +115,17 @@ const data = [
     icon: <FaNetworkWired />,
     title: 'Microservices',
   },
+  {
+    id: 18,
+    icon: <FaNetworkWired />,
+    title: 'Product engineering',
+  },
+  {
+    id: 19,
+    icon: <FaNetworkWired />,
+    title: 'Technical writing',
+  },
+
 ]
 
 export default data
