@@ -86,7 +86,7 @@
         grid-template-columns: 1fr;
     }
 
-    .about__right h3 {
+    .about__right h2 {
         text-align: center;
     }
     /* .about__right{
@@ -95,6 +95,14 @@
       align-items: center;
       flex-direction: column;
     } */
+    .about__cards{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .about__right a{
+      margin-inline: auto;
+    }
 }
 
 

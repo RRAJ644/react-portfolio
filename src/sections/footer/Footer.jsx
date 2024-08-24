@@ -81,6 +81,7 @@ const Footer = () => {
       <div className='container footer__container'>
         <div className='footer__form'>
           <form onSubmit={handleSubmit}>
+            <h2>Let's connect</h2>
             <input
               type='text'
               name='name'

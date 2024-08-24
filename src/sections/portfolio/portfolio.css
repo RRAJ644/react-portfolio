@@ -37,6 +37,7 @@
 
 .card.portfolio__project {
     animation: animateProject 800ms ease-in forwards;
+    border: 0.1rem solid var(--color-primary);
 }
 
 @keyframes animateProject {
@@ -78,6 +79,10 @@
     border-color: var(--color-primary);
 }
 
+.portfolio__project-cta a {
+  margin-inline: auto;
+}
+
 /* MEDIA QUERIES (tablets) */
 @media screen and (max-width: 1024px) {
     .portfolio__projects {
@@ -90,6 +95,9 @@
 
     .portfolio-desc{
       font-size: 1.2rem;
+    }
+    .portfolio__project-cta a {
+      margin-inline: auto;
     }
 }
 
