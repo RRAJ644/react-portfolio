@@ -20,10 +20,10 @@ const Header = () => {
           RITU RAJ SINGH
         </h1>
         <p data-aos='fade-up'>
-          A full-stack web developer from India with
-          a Bachelor's degree in Computer Applications. With over 1.5 years of
-          experience in the web development industry, I’ve had the privilege of
-          helping more than 10+ clients globally achieve their online goals.
+          A full-stack web developer from India with a Bachelor's degree in
+          Computer Applications. With over 1.5 years of experience in the web
+          development industry, I’ve had the privilege of helping more than 10+
+          clients globally achieve their online goals.
         </p>
         <div className='header__cta' data-aos='fade-up'>
           <a href='#contact' className='btn primary'>
@@ -33,7 +33,7 @@ const Header = () => {
             My Work
           </a>
         </div>
-        <div className='header__socials'>
+        {/* <div className='header__socials'>
           {data?.map((item) => (
             <a
               key={item.id}
@@ -42,6 +42,22 @@ const Header = () => {
               rel='noopener noreferrer'
             >
               {item.icon}
+            </a>
+          ))}
+        </div> */}
+
+        <div className='header__socials'>
+          {data?.map((item) => (
+            <a
+              key={item.id}
+              href={item.link}
+              target='_blank'
+              rel='noopener noreferrer'
+              className='social-link'
+            >
+              {item.icon}
+              <span className='tooltip'>{item.msg}</span>{' '}
+              {/* Add the tooltip here */}
             </a>
           ))}
         </div>
