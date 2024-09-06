@@ -19,7 +19,12 @@ const Navbar = () => {
         <ul className={`nav__menu ${showMobMenu ? 'active' : ''}`}>
           {data?.map((item) => (
             <li key={item?.id}>
-              <a href={item?.link}>{item?.title}</a>
+              <a
+                href={item?.link}
+                target={item?.title === 'Request service' ? '_blank' : ''}
+              >
+                {item?.title}
+              </a>
             </li>
           ))}
         </ul>
