@@ -24,14 +24,19 @@ const Header = () => {
           custom website development, SaaS solutions, and MVP development.
           Whether you're looking to build a responsive website, a robust web
           application, or streamline your online presence, I provide tailored
-          solutions that deliver results. Hire a trusted web developer
-          to bring your vision to life.
+          solutions that deliver results. Hire a trusted web developer to bring
+          your vision to life.
         </p>
         <div className='header__cta' data-aos='fade-up'>
-          <a href='#contact' className='btn primary'>
-            Let's Talk
+
+          <a
+            href='https://cal.com/rituraj-singh-im02fk/30min'
+            target='_blank'
+            className='btn primary'
+          >
+            Schedule Free Call!
           </a>
-          <a href='#portfolio' className='btn light'>
+          <a href='#portfolio' className='btn primary'>
             My Work
           </a>
         </div>
