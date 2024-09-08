@@ -20,10 +20,12 @@ const Header = () => {
           RITU RAJ SINGH
         </h1>
         <p data-aos='fade-up'>
-          A full-stack web developer from India with a Bachelor's degree in
-          Computer Applications. With over 1.5 years of experience in the web
-          development industry, I’ve had the privilege of helping more than 10+
-          clients globally achieve their online goals.
+          I’m Ritu Raj, a Freelance Full Stack Web Developer with expertise in
+          custom website development, SaaS solutions, and MVP development.
+          Whether you're looking to build a responsive website, a robust web
+          application, or streamline your online presence, I provide tailored
+          solutions that deliver results. Hire a trusted web developer
+          to bring your vision to life.
         </p>
         <div className='header__cta' data-aos='fade-up'>
           <a href='#contact' className='btn primary'>

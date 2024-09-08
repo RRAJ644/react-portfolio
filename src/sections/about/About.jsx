@@ -30,7 +30,7 @@ const About = () => {
           <br />
 
           <h3>
-            Crafting Websites That Drive Success for Over 10+ Clients Worldwide
+            Crafting Websites That Drive Success for 10+ Clients Worldwide
           </h3>
 
           <br />

@@ -16,23 +16,19 @@ const data = [
 export const about_data = [
   {
     title: 'Custom Web Development',
-    description: 'Custom-fit your business needs.',
+    description: ' Tailored solutions that meet your business needs.',
   },
   {
     title: 'Responsive Design',
-    description: 'Ensuring your site looks perfect on all devices.',
-  },
-  {
-    title: 'E-commerce Solutions',
-    description: 'Driving sales and growth for your business.',
+    description: 'Ensuring your site looks flawless on any device.',
   },
   {
     title: 'SEO Optimization',
-    description: 'Enhancing your visibility and search engine ranking.',
+    description: 'Improving your visibility and search engine ranking',
   },
   {
     title: 'Seamless User Experience',
-    description: 'From intuitive navigation to fast load times.',
+    description: 'Providing intuitive navigation and fast load times.',
   },
 ]
 
