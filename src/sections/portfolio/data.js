@@ -34,15 +34,15 @@ const data = [
     visit: 'https://wiseadvice.in/',
   },
 
-  // {
-  //   id: 3,
-  //   category: 'frontend',
-  //   image: Image3,
-  //   title: 'Blog portal - WiseAdvice Blogs',
-  //   // desc: 'Developed the in house portal for WiseAdvice which is a brand of Sumit Kapoor-the top crypto KOL to facilitate the operation of blogging effectively and efficiently.',
-  //   desc: 'Developed the WiseAdvice portal for Sumit Kapoor, a leading crypto KOL. The portal streamlines blogging operations for efficiency.',
-  //   visit: 'https://clever-bublanina-62161e.netlify.app/login',
-  // },
+  {
+    id: 3,
+    category: 'frontend',
+    image: Image3,
+    title: 'Blog portal - WiseAdvice Blogs',
+    desc: 'Developed the WiseAdvice portal for Sumit Kapoor, a leading crypto KOL. The portal streamlines blogging operations for efficiency.',
+    visit:
+      'https://bullstreet-group-blog-portal-frontend-revised.vercel.app/login',
+  },
 
   {
     id: 4,
